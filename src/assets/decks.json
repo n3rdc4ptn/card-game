@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Fitness",
+        "subtitle": "",
+        "color": "red",
+        "icon": ["fas", "fire-alt"],
+        "cards": [
+            {
+                "text": "%PLAYER% mach 10 Liegestütz und %PLAYER% muss je Stück laut bellen!",
+                "color": "red"
+            },
+            {
+                "text": "%PLAYER% mach 5 Hampelmänner",
+                "color": "blue"
+            },
+            {
+                "text": "%PLAYER%! 1 min Armkreisen",
+                "color": "yellow",
+                "textcolor": "black"
+            }            
+        ]
+    },
+    {
+      "name": "Drinking",
+      "subtitle": "",
+      "color": "purple accent-3",
+      "icon": ["fas", "wine-glass-alt"],
+      "cards": [
+        {
+            "text": "Trink 10 Schlucke",
+            "color": "red"
+        },
+        {
+            "text":   "Kipp 2 Schlucke in den Cup",
+            "color": "red"
+        },
+        {
+            "text": "Nennt Tiere, wer als erster keins nennen kann, trinkt 4 Schlucke",
+            "color": "red"
+        }             
+      ]
+    }
+]
