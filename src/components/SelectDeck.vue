@@ -17,6 +17,10 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-card-actions>
+      <v-btn color="primary" @click="$emit('back')">Zurück</v-btn>
+      <v-spacer></v-spacer>
+    </v-card-actions>
   </v-container>
 </template>
 
