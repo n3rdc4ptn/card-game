@@ -12,7 +12,7 @@
 
             <v-main fluid>
               <StartScreen v-if="showComponent == 'start'" v-on:player_selected="players = $event; next()" />
-              <SelectDeck v-if="showComponent == 'select'" v-on:start_game="startGame($event)" v-on:back="back()" />
+              <SelectDeck v-if="showComponent == 'select'" v-on:start_game="startGame($event)" v-on:back="players = []; back()" />
             </v-main>
           </v-card>
         </v-col>
