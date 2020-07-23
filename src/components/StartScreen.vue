@@ -1,5 +1,12 @@
 <template>
-  
+  <v-container>
+    
+
+    <v-card-actions>
+      <v-spacer></v-spacer>
+      <v-btn color="primary" @click="next()">Weiter</v-btn>
+    </v-card-actions>
+  </v-container>
 </template>
 
 <script>
@@ -9,10 +16,16 @@ export default {
     msg: String
   },
   data() {
-    return {};
+    return {
+      players: []
+    };
   },
   methods: {
-    next() {}
+    next() {
+      if (this.players.length > 1) {
+        this.$emit("player_selected", this.players);
+      }
+    }
   }
 };
 </script>
