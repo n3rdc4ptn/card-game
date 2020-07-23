@@ -10,7 +10,6 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "core-js": "^3.6.5",
-    "lodash": "^4.17.19",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
   },
